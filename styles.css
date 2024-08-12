@@ -1,0 +1,180 @@
+html,
+body {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  font-family: "Aleo", serif;
+}
+
+.header-container {
+  padding-left: 10px;
+  font-size: 16px;
+  width: 70%;
+}
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.hero-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.hero-headline {
+  margin: 0;
+  padding: 0;
+}
+.hero-description {
+  background-color: #f1911b;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 10px;
+}
+.consultation-paragraph {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+.number-span {
+  color: #fff2e4;
+}
+.how-it-works-section {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  font-weight: lighter;
+}
+.tiles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+.tile-image {
+  height: 200px;
+  width: 250px;
+}
+.footer {
+  padding: 10px;
+  height: 250px;
+  background-color: #f0f1f1;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+}
+.footer-colunm {
+  display: flex;
+  flex-direction: column;
+}
+.footer-nav {
+  display: block;
+  padding: 0;
+  list-style-type: none;
+}
+.socials-link {
+  text-decoration: none;
+  color: #000;
+}
+.email-link {
+  color: #000;
+}
+.colunms-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.separator {
+  width: 80%;
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .header-container {
+    width: 70%;
+  }
+  .hero-section {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+  }
+  .hero-image {
+    height: 500px;
+    width: 550px;
+  }
+  .hero-description {
+    height: 150px;
+    width: 300px;
+    padding: 20px;
+  }
+  .consultation-paragraph {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .how-it-works-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tiles {
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+  }
+  .tile {
+    width: 30%;
+  }
+  .footer {
+    width: 100%;
+    justify-content: center;
+  }
+  .footer-nav {
+    display: flex;
+    gap: 10px;
+    width: 200px;
+    float: left;
+    padding: 0;
+    margin: 0;
+  }
+
+  .colunms-container {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .separator {
+    width: 70%;
+    height: 2px;
+    background-color: lightgray;
+    border: none;
+    margin-top: 40px;
+  }
+}
