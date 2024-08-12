@@ -1,10 +1,12 @@
 html,
 body {
+  box-sizing: border-box;
   width: 100%;
   font-size: 16px;
   padding: 0;
   margin: 0;
 }
+
 .header-container {
   padding-left: 10px;
   font-size: 16px;
@@ -74,15 +76,16 @@ body {
   flex-direction: column;
 }
 .footer-nav {
-  display: flex;
-  flex-direction: column;
+  display: block;
+  padding: 0;
+  list-style-type: none;
 }
-.link {
+.socials-link {
   text-decoration: none;
-  color: black;
+  color: #000;
 }
 .email-link {
-  color: black;
+  color: #000;
 }
 .colunms-container {
   display: flex;
@@ -97,6 +100,12 @@ body {
   body {
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     align-items: center;
   }
   .header-container {
@@ -139,6 +148,15 @@ body {
     width: 100%;
     justify-content: center;
   }
+  .footer-nav {
+    display: flex;
+    gap: 10px;
+    width: 200px;
+    float: left;
+    padding: 0;
+    margin: 0;
+  }
+
   .colunms-container {
     width: 70%;
     display: flex;

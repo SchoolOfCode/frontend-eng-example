@@ -13,12 +13,20 @@
     </header>
 
     <!-- Hero Section -->
-    <section id="hero" class="hero-section">
+     <main>
+
+    <section class="hero-section">
       <img
-        src="/images/hero-mobile.png"
-        alt="Cozy living room with a fireplace"
-        class="hero-image"
-      />
+      src="/images/hero-mobile.png"
+      srcset="/images/hero-mobile.png 900w,
+              /images/hero-desktop.png 901w"
+      sizes="(max-width: 900px) 100vw,
+             901px"
+      alt="Cozy living room with a fireplace"
+      class="hero-image"
+    />
+    
+    
       <div class="hero-description">
         <p class="hero-headline">
           Discover the <br />
@@ -71,18 +79,20 @@
         </article>
       </div>
     </section>
+  </main>
 
     <!-- Footer Section -->
     <footer class="footer">
       <div class="colunms-container">
         <div class="footer-column">
           <p>Find us on:</p>
-          <nav class="footer-nav">
-            <a href="https://www.facebook.com" class="link"> Facebook </a>
-            <a href="https://www.instagram.com" class="link"> Instagram </a>
-            <a href="https://www.tiktok.com" class="link"> TikTok</a>
-          </nav>
+            <ul class="footer-nav">
+              <li><a href="https://www.facebook.com" class="socials-link">Facebook</a></li>
+              <li><a href="https://www.instagram.com" class="socials-link">Instagram</a></li>
+              <li><a href="https://www.tiktok.com" class="socials-link">TikTok</a></li>
+            </ul>
         </div>
+        
         <div class="footer-column">
           <p>Contact us:</p>
           <address>
